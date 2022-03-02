@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: 'Poppins', Helvetica, sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   color: #343A40;
 }
 
@@ -251,8 +252,10 @@ footer a:hover {
 }
 
 /* Jumbotron */
-.border-gradient {
-  border-width: thin;
-  border-image: repeating-linear-gradient(90deg, #fdd12d, #ef6125) 30;
-  ;
+.line-gradient {
+  height: 2px !important;
+  background-color: #EF6215;
+  background-image: linear-gradient(to right, #fdd12d, #ef6125);
+  background-image: -webkit-linear-gradient(to right, #fdd12d, #ef6125);
+  background-image: -moz-linear-gradient(to right, #fdd12d, #ef6125);
 }
