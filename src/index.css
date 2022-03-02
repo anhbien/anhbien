@@ -1,0 +1,258 @@
+/* Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #343A40;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  font-size: 1rem;
+  color: #EF6215;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #BD4D11;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.488rem;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-weight: 100;
+  font-size: 2.074rem;
+}
+
+h3 {
+  padding-top: 1rem;
+  font-weight: 200;
+  font-size: 1.728rem;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 1.44rem;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+strong {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.subtitle {
+  font-weight: 100;
+  font-size: 1.728rem;
+  color: #343A40;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.text-truncate-2-line {
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.heading-text {
+  color: #F8F9FA;
+  background-color: #343A40;
+  padding: 4px 20px;
+  display: inline-block;
+}
+
+/* Background Colors */
+.color-universal-white {
+  background-color: #FFF;
+}
+
+.color-universal-black {
+  background-color: #000;
+}
+
+.color-orange {
+  background-color: #EF6215;
+}
+
+.color-orange-hover {
+  background-color: #BD4D11;
+}
+
+.color-orange-disable {
+  background-color: #F2925E;
+}
+
+.color-yellow {
+  background-color: #FDD12D;
+}
+
+.color-yellow-hover {
+  background-color: #C9A624;
+}
+
+.color-yellow-disable {
+  background-color: #FDE079;
+}
+
+.color-light {
+  background-color: #F8F9FA;
+}
+
+.color-light-hover {
+  background-color: #E2E6EA;
+}
+
+.color-light-disable {
+  background-color: #FAFCFC;
+}
+
+.color-dark {
+  background-color: #343A40;
+}
+
+.color-dark-hover {
+  background-color: #23272B;
+}
+
+.color-dark-disable {
+  background-color: #7A7E83;
+}
+
+/* Text Colors */
+.text-heading {
+  display: inline-block;
+  color: #F8F9FA;
+  background-color: #343A40;
+  padding: 10px 20px;
+}
+
+.text-light {
+  color: #F8F9FA;
+}
+
+.text-dark {
+  color: #343A40;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #ef6115;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border-color: #EF6215;
+  display: inline-block;
+  color: #ffffff;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited {
+  background-color: #bd4d11 !important;
+  border-color: #EF6215 !important;
+}
+
+.btn-default {
+  background-color: transparent;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  border-color: #EF6215;
+  display: inline-block;
+  color: #EF6215;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.btn-default:hover {
+  background-color: #ef611520;
+}
+
+/* Cards */
+.card {
+  min-height: 250px;
+}
+
+.card-img-overlay {
+  top: auto;
+  background-color: #343A4050;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* Footer */
+footer a {
+  color: #F8F9FA;
+}
+
+footer a:hover {
+  color: #E2E6EA;
+}
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: #EF6215;
+  top: 0;
+  bottom: 0;
+  left: 1rem;
+  margin-left: -3px;
+}
+
+.timeline section {
+  padding-left: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.timeline section::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #F8F9FA;
+  border: 2px solid #EF6215;
+  top: 2.5rem;
+  border-radius: 50%;
+  z-index: 1;
+  left: 6px;
+}
+
+/* Jumbotron */
+.border-gradient {
+  border-width: thin;
+  border-image: repeating-linear-gradient(90deg, #fdd12d, #ef6125) 30;
+  ;
+}
