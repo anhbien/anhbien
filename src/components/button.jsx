@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Button = (props) => {
     let buttonStyle = "";
-    const { type, text } = props;
+    const { type, text, to } = props;
     switch (type) {
         case "default":
             buttonStyle = "btn-default"
@@ -11,7 +12,7 @@ const Button = (props) => {
             buttonStyle = "btn-primary";
             break;
     }
-    return (<button href="#" className={buttonStyle}>{text}</button>);
+    return (<Link to={to} className={buttonStyle}>{text}</Link>);
 };
 
 export default Button;

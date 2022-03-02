@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../images/ColorReverse.png";
 import GithubLogo from "../images/github.png";
 import LinkedinLogo from "../images/linkedin.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -9,29 +10,29 @@ function Footer() {
             <div className="container">
                 <div className="row text-center">
                     <div className="col-12 col-lg-8">
-                        <nav className="text-center text-lg-left">
+                        <nav className="text-center text-lg-start">
                             <ul className="p-0">
                                 <li className="d-block d-lg-inline p-1">
-                                    <a href="#">
+                                    <Link to="/">
                                         <img src={Logo} width="64" alt="Logo" />
-                                    </a></li>
+                                    </Link></li>
                                 <li className="d-block d-lg-inline p-1">
-                                    <a href="#">Home</a>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-1">
-                                    <a href="#">Portfolio</a>
+                                    <Link to="/portfolio">Portfolio</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-1">
-                                    <a href="#">Resume</a>
+                                    <Link to="/resume">Resume</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-1">
-                                    <a href="#">Contact</a>
+                                    <Link to="/contact">Contact</Link>
                                 </li>
                             </ul>
                         </nav>
                     </div>
-                    <div className="col-12 col-lg-4 text-lg-right">
-                        <a className="d-inline pr-1" href="#" title="LinkedIn">
+                    <div className="col-12 col-lg-4 text-lg-end">
+                        <a className="d-inline pe-2" href="#" title="LinkedIn">
                             <img src={LinkedinLogo} width="24" alt="LinkedIn" />
                         </a>
                         <a className="d-inline" href="#" title="Github">
