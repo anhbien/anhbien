@@ -3,8 +3,8 @@ import ColorLine from "./colorLine";
 
 function Jumbotron() {
     return (
-        <div className="mt-4 p-5 color-dark text-light">
-            <div className="container">
+        <div className="p-5 color-dark text-light">
+            <div className="py-5 container">
                 <div className="row">
                     <div className="col-12 col-md-8 col-lg-6">
                         <h1>PROJECT NAME</h1>

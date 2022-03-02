@@ -7,17 +7,17 @@ function Home() {
     const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
     return (
         <>
-            <div className="vh-100 color-dark-hover text-light d-flex">
+            <div className="vh-100 home-hero-bg text-light d-flex">
                 <div className="container align-self-center justify-content-center">
                     <div className="row">
-                        <div className="col-12 col-md-6 align-self-center">
+                        <div className="col-12 col-md-6 align-self-center text-center text-md-start">
                             <p className="display-4 text-highlight-bold">Anh Bien</p>
                             <p className="display-4 text-thin">is a software developer with a passion in User Interfvace and User Experience</p>
                             <div className="pt-4">
                                 <Button type="default" text="LEARN MORE" to="/resume" />
                             </div>
                         </div>
-                        <div className="col-md-6 text-center">
+                        <div className="col-md-6 text-center d-none d-md-block">
                             <img src={Portrait} alt="Portrait" className="w-75 img-responsive" />
                         </div>
                     </div>

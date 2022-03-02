@@ -12,20 +12,20 @@ function Footer() {
                     <div className="col-12 col-lg-8">
                         <nav className="text-center text-lg-start">
                             <ul className="p-0">
-                                <li className="d-block d-lg-inline p-1">
+                                <li className="d-block d-lg-inline p-2">
                                     <Link to="/">
                                         <img src={Logo} width="64" alt="Logo" />
                                     </Link></li>
-                                <li className="d-block d-lg-inline p-1">
+                                <li className="d-block d-lg-inline p-2">
                                     <Link to="/">Home</Link>
                                 </li>
-                                <li className="d-block d-lg-inline p-1">
+                                <li className="d-block d-lg-inline p-2">
                                     <Link to="/portfolio">Portfolio</Link>
                                 </li>
-                                <li className="d-block d-lg-inline p-1">
+                                <li className="d-block d-lg-inline p-2">
                                     <Link to="/resume">Resume</Link>
                                 </li>
-                                <li className="d-block d-lg-inline p-1">
+                                <li className="d-block d-lg-inline p-2">
                                     <Link to="/contact">Contact</Link>
                                 </li>
                             </ul>

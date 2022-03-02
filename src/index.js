@@ -13,6 +13,7 @@ import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
+import PortfolioDetails from './pages/portfolioDetails';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Routes>
         <Route path="contact" element={<Contact />} />
         <Route path="portfolio" element={<Portfolio />} />
+        <Route path="portfolio-details" element={<PortfolioDetails />} />
         <Route path="resume" element={<Resume />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
