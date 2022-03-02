@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from '../components/card';
 import Jumbotron from '../components/jumbotron';
 
 function Portfolio() {
     const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <Jumbotron />

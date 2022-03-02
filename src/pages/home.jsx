@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Button from '../components/button';
 import Card from '../components/card';
 import Portrait from '../images/me.png';
 
 function Home() {
     const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <div className="vh-100 home-hero-bg text-light d-flex">

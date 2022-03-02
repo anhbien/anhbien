@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Jumbotron from '../components/jumbotron';
 import SkillTile from '../components/skillTile';
 import TimeLine from '../components/timeLine';
 
 function Resume() {
     const cards = ['one', 'two', 'three', 'one'];
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <>
             <Jumbotron />
