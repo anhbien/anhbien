@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import Jumbotron from '../components/jumbotron';
 import SkillTile from '../components/skillTile';
 import TimeLine from '../components/timeLine';
+import GithubLogo from "../images/github.png";
+import LinkedinLogo from "../images/linkedin.png";
 
 function Resume() {
     const cards = ['one', 'two', 'three', 'one'];
@@ -14,8 +16,13 @@ function Resume() {
                 topElement={<h1>Resume</h1>}
                 bottomElement={
                     <>
-                        <a className="py-2" target="_blank" href="https://www.linkedin.com/in/anhbien" title="LinkedIn"><strong>LinkedIn</strong></a>
-                        <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                        <a className="d-inline pe-2" target="_blank" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
+                            <img src={LinkedinLogo} width="24" alt="LinkedIn" />
+                        </a>
+                        <a className="d-inline" target="_blank" href="https://github.com/anhbien" title="Github">
+                            <img src={GithubLogo} width="24" alt="Github" />
+                        </a>
+                        <p className="pt-2"><strong>Objective:</strong> It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
                     </>
                 } />
             <div className="container py-5">

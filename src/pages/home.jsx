@@ -30,12 +30,17 @@ function Home() {
                 <h2>PORTFOLIO</h2>
                 <p>Feature projects</p>
                 <div className="row">
-                    {cards.map(_ => {
-                        return (
-                            <div className="p-2 col-12 col-md-6 col-lg-4">
+                    <div className="col-12 col-lg-8 py-1"><Card /></div>
+                    <div className="col-12 col-lg-4">
+                        <div>
+                            <div className="py-1">
                                 <Card />
-                            </div>)
-                    })}
+                            </div>
+                            <div className="py-1">
+                                <Card />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="pt-4 pb-5 text-center">
                     <Button text="VIEW MORE" to="/portfolio" />

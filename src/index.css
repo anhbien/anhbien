@@ -205,10 +205,6 @@ strong {
 }
 
 /* Cards */
-.card {
-  min-height: 250px;
-}
-
 .card-img-overlay {
   top: auto;
   background-color: #343A4050;
@@ -277,4 +273,8 @@ footer a:hover {
   background-image: linear-gradient(to right, #fdd12d, #ef6125);
   background-image: -webkit-linear-gradient(to right, #fdd12d, #ef6125);
   background-image: -moz-linear-gradient(to right, #fdd12d, #ef6125);
+}
+
+.object-fit-cover {
+  object-fit: cover;
 }

@@ -13,8 +13,8 @@ function Navbar() {
                 <NavLink className="navbar-brand" to="/">
                     <img src={Logo} width="64" alt="Logo" />
                 </NavLink>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbar" ref={navRef}>
                     <ul className="navbar-nav border-bottom">
