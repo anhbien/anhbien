@@ -9,7 +9,11 @@ function Portfolio() {
     }, [])
     return (
         <>
-            <Jumbotron />
+            <Jumbotron
+                topElement={<h1>PORTFOLIO</h1>}
+                bottomElement={
+                    <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                } />
             <div className='container py-5'>
                 <p>My current projects</p>
                 <div className="row">

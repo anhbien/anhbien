@@ -10,7 +10,14 @@ function Resume() {
     }, [])
     return (
         <>
-            <Jumbotron />
+            <Jumbotron
+                topElement={<h1>Resume</h1>}
+                bottomElement={
+                    <>
+                        <a className="py-2" target="_blank" href="https://www.linkedin.com/in/anhbien" title="LinkedIn"><strong>LinkedIn</strong></a>
+                        <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                    </>
+                } />
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 col-lg-4">

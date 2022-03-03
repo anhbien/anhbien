@@ -12,18 +12,16 @@ import './index.css';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
-import Contact from './pages/contact';
 import PortfolioDetails from './pages/portfolioDetails';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename='/anhbien'>
       <Navbar />        
       <Routes>
-        <Route path="contact" element={<Contact />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="portfolio-details" element={<PortfolioDetails />} />
-        <Route path="resume" element={<Resume />} />
+        <Route exact path="/portfolio" element={<Portfolio />} />
+        <Route exact path="/portfolio-details" element={<PortfolioDetails />} />
+        <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
       <Footer />

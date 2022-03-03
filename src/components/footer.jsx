@@ -13,29 +13,29 @@ function Footer() {
                         <nav className="text-center text-lg-start">
                             <ul className="p-0">
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/">
+                                    <Link to="/anhbien">
                                         <img src={Logo} width="64" alt="Logo" />
                                     </Link></li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/">Home</Link>
+                                    <Link to="/anhbien">Home</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/portfolio">Portfolio</Link>
+                                    <Link to="/anhbien/portfolio">Portfolio</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/resume">Resume</Link>
+                                    <Link to="/anhbien/resume">Resume</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/contact">Contact</Link>
+                                    <a href="mailto:contact@anhnbien.com">Contact</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="col-12 col-lg-4 text-lg-end">
-                        <a className="d-inline pe-2" href="#" title="LinkedIn">
+                        <a className="d-inline pe-2" target="_blank" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                             <img src={LinkedinLogo} width="24" alt="LinkedIn" />
                         </a>
-                        <a className="d-inline" href="#" title="Github">
+                        <a className="d-inline" target="_blank" href="https://github.com/anhbien" title="Github">
                             <img src={GithubLogo} width="24" alt="Github" />
                         </a>
                     </div>

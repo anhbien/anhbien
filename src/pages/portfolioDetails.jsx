@@ -9,7 +9,11 @@ function PortfolioDetails() {
     const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
     return (
         <>
-            <Jumbotron />
+            <Jumbotron
+                topElement={<h1>PROJECT NAME</h1>}
+                bottomElement={
+                    <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                } />
             <div className="container py-5">
                 {cards.map(_ => {
                     return (
