@@ -32,10 +32,10 @@ function Footer() {
                         </nav>
                     </div>
                     <div className="col-12 col-lg-4 text-lg-end">
-                        <a className="d-inline pe-2" target="_blank" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
+                        <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                             <img src={LinkedinLogo} width="24" alt="LinkedIn" />
                         </a>
-                        <a className="d-inline" target="_blank" href="https://github.com/anhbien" title="Github">
+                        <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
                             <img src={GithubLogo} width="24" alt="Github" />
                         </a>
                     </div>
