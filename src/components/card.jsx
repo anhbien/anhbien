@@ -9,7 +9,7 @@ function Card(props) {
             <Link to={`/portfolio-details/${id}`}>
                 <img src={Thumbnail} className="card-img" alt="Alt Text" />
                 <div className="card-img-overlay">
-                    <h5 className="card-title text-uppercase">{title}</h5>
+                    <h5 className="card-title text-uppercase text-truncate">{title}</h5>
                     <p className="card-text text-truncate-2-line text-light">{description}</p>
                 </div>
             </Link>
