@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anhbien/static/css/main.7acdbfda.css",
-    "main.js": "/anhbien/static/js/main.05be2568.js",
+    "main.css": "/anhbien/static/css/main.6f373328.css",
+    "main.js": "/anhbien/static/js/main.7cad778f.js",
     "static/media/Thumbnail.jpg": "/anhbien/static/media/Thumbnail.13dcfb3d2abd324ef9b1.jpg",
     "static/media/me.png": "/anhbien/static/media/me.767e9fc2c84523eef903.png",
     "static/media/Color.png": "/anhbien/static/media/Color.af0b2908506b27ec6f8b.png",
@@ -9,11 +9,11 @@
     "static/media/skill-computer.png": "/anhbien/static/media/skill-computer.781898660768dcfb696f.png",
     "static/media/pin.png": "/anhbien/static/media/pin.9caff3231a7ee7f1b742.png",
     "index.html": "/anhbien/index.html",
-    "main.7acdbfda.css.map": "/anhbien/static/css/main.7acdbfda.css.map",
-    "main.05be2568.js.map": "/anhbien/static/js/main.05be2568.js.map"
+    "main.6f373328.css.map": "/anhbien/static/css/main.6f373328.css.map",
+    "main.7cad778f.js.map": "/anhbien/static/js/main.7cad778f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acdbfda.css",
-    "static/js/main.05be2568.js"
+    "static/css/main.6f373328.css",
+    "static/js/main.7cad778f.js"
   ]
 }
