@@ -19,10 +19,11 @@ ReactDOM.render(
     <Router basename='/anhbien'>
       <Navbar />        
       <Routes>
-        <Route exact path="/portfolio" element={<Portfolio />} />
-        <Route exact path="/portfolio-details/:id" element={<PortfolioDetails />} />
-        <Route exact path="/resume" element={<Resume />} />
-        <Route exact path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/portfolio-details/:id" element={<PortfolioDetails />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route index path="/" element={<Home />} />
+        <Route path="*" element={<Home/>} />
       </Routes>
       <Footer />
     </Router>

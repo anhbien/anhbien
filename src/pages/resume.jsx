@@ -63,7 +63,7 @@ function Resume() {
                             </article>
                         </div>
                     </div>
-                    <div className="col-12 d-none d-sm-block d-lg-none">
+                    <div className="col-12 d-block d-lg-none">
                         <div className="container pt-5">
                             <h2 className="text-heading">Education</h2>
                             <h3>DePaul University</h3>
