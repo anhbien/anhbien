@@ -39,7 +39,7 @@ function Home() {
                 <div className="container align-self-center justify-content-center">
                     <div className="row">
                         <div className="col-12 col-md-6 align-self-center text-center text-md-start">
-                            <p className="display-4 text-highlight-bold">Anh Bien</p>
+                            <div className="display-4 text-highlight-bold typewriter"><p>Anh Bien</p></div>
                             <p className="display-4 text-thin">is a software developer with a passion in User Interfvace and User Experience</p>
                             <div className="pt-4">
                                 <Button type="default" text="LEARN MORE" to="/resume" />

@@ -17,7 +17,7 @@ function Navbar() {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse justify-content-end" id="navbar" ref={navRef}>
-                    <ul className="navbar-nav border-bottom">
+                    <ul className="navbar-nav text-end">
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/" onClick={handleClick}>HOME</NavLink>
                         </li>

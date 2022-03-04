@@ -1,13 +1,13 @@
 export const Projects = [
     {
         id: 0,
-        title: "Project Name 0",
-        description: "cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla"
+        title: "Atari Typography",
+        description: "A look into how developers in the 1970s developed a typeface of arcade video games"
     },
     {
         id: 1,
-        title: "Project Name 1",
-        description: "cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus nulla"
+        title: "Arcades in the US vs Japan",
+        description: "A cultural deep down to explore the posibilities why arcade is dead in the US while it's thriving in Japan"
     },
     {
         id: 2,
