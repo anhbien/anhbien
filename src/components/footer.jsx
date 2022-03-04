@@ -13,17 +13,17 @@ function Footer() {
                         <nav className="text-center text-lg-start">
                             <ul className="p-0">
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/anhbien">
+                                    <Link to="/">
                                         <img src={Logo} width="64" alt="Logo" />
                                     </Link></li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/anhbien">Home</Link>
+                                    <Link to="/">Home</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/anhbien/portfolio">Portfolio</Link>
+                                    <Link to="/portfolio">Portfolio</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/anhbien/resume">Resume</Link>
+                                    <Link to="/resume">Resume</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
                                     <a href="mailto:contact@anhnbien.com">Contact</a>

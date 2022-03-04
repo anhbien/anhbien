@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import Card from '../components/card';
 import Jumbotron from '../components/jumbotron';
+import { Projects } from '../data/projects';
 
 function Portfolio() {
-    const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -15,12 +15,12 @@ function Portfolio() {
                     <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
                 } />
             <div className='container py-5'>
-                <p>My current projects</p>
+                <h2>Current Projects</h2>
                 <div className="row">
-                    {cards.map(_ => {
+                    {Projects.map(project => {
                         return (
-                            <div className="p-2 col-12 col-md-6 col-lg-4">
-                                <Card />
+                            <div className="p-2 col-12 col-md-6 col-lg-4" key={project.id}>
+                                <Card id={project.id} title={project.title} description={project.description} />
                             </div>)
                     })}
                 </div>

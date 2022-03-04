@@ -1,18 +1,21 @@
 import React, { useEffect } from "react";
 import Jumbotron from '../components/jumbotron';
 import Thumbnail from "../images/Thumbnail.jpg";
+import { Projects } from '../data/projects';
+import { useParams } from 'react-router-dom';
 
 function PortfolioDetails() {
+    const { id } = useParams()
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-    const cards = ['one', 'two', 'three', 'one', 'two', 'three'];
-    return (
+    const project = Projects.find(prj => prj.id === Number(id));
+    return project && (
         <>
             <Jumbotron
-                topElement={<h1>PROJECT NAME</h1>}
+                topElement={<h1>{project.title}</h1>}
                 bottomElement={
-                    <p>It uses utility classNames for typography and spacing to space content out within the larger container.</p>
+                    <p>{project.description}</p>
                 } />
             <article className="container py-5">
                 <section className="row py-3">

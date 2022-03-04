@@ -8,7 +8,7 @@ function Timeline() {
                 <h3>Company Name</h3>
                 <p>
                     <img src={Pin} width="16" alt="location pin" />
-                    <strong>Location</strong>
+                    <strong className="ps-2">Location</strong>
                 </p>
                 <p><em>November 2020 - present</em></p>
                 <ul>

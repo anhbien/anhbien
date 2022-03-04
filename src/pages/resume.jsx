@@ -31,9 +31,9 @@ function Resume() {
                         <div className="container">
                             <h2 className="text-heading">Skills</h2>
                             <div className="row">
-                                {cards.map(_ => {
+                                {cards.map((_, i) => {
                                     return (
-                                        <SkillTile />
+                                        <SkillTile key={i} />
                                     )
                                 })}
                             </div>
@@ -55,9 +55,9 @@ function Resume() {
                         <div className="container pt-3 pt-lg-0">
                             <h2 className="text-heading">Experience</h2>
                             <article className="timeline">
-                                {cards.map(_ => {
+                                {cards.map((_, i) => {
                                     return (
-                                        <TimeLine />
+                                        <TimeLine key={i} />
                                     )
                                 })}
                             </article>

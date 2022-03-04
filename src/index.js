@@ -20,7 +20,7 @@ ReactDOM.render(
       <Navbar />        
       <Routes>
         <Route exact path="/portfolio" element={<Portfolio />} />
-        <Route exact path="/portfolio-details" element={<PortfolioDetails />} />
+        <Route exact path="/portfolio-details/:id" element={<PortfolioDetails />} />
         <Route exact path="/resume" element={<Resume />} />
         <Route exact path="/" element={<Home />} />
       </Routes>
