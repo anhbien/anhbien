@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# Anh Bien - Portfolio Website
 
+This website is a portfolio piece by Anh Bien.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
