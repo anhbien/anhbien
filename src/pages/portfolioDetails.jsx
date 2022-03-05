@@ -43,7 +43,7 @@ function PortfolioDetails() {
                     <div className="col-12 col-md-8 order-md-0">
                         <div className="container-fluid">
                             <section className="text-center">
-                                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/hK7LNB1Eg6U"
+                                <iframe className="rounded" width="100%" height="400px" src="https://www.youtube.com/embed/hK7LNB1Eg6U"
                                     title="Atari - Mini Documentary" frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                 <em>Atari - Mini Documentary</em>
