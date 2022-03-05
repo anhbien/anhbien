@@ -20,9 +20,9 @@ function PortfolioDetails() {
             <article className="container py-5">
                 <div className="row">
                     <div className="col-12 col-md-4 color-light-hover order-md-1 mb-3 rounded">
-                        <div class="sticky-top ms-2">
+                        <div className="sticky-top ms-2">
                             <h2>Contents</h2>
-                            <ul className="ms-2">
+                            <ul className="my-2">
                                 <li><Link to="#anchor-background">Background</Link>
                                     <ul>
                                         <li><Link to="#anchor-inspiration">Inspiration</Link></li>
@@ -44,8 +44,8 @@ function PortfolioDetails() {
                         <div className="container-fluid">
                             <section className="text-center">
                                 <iframe width="100%" height="400px" src="https://www.youtube.com/embed/hK7LNB1Eg6U"
-                                    title="Atari - Mini Documentary" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    title="Atari - Mini Documentary" frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                 <em>Atari - Mini Documentary</em>
                             </section>
                             <section className="row py-3">
