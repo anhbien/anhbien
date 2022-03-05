@@ -22,7 +22,7 @@ function Resume() {
                         <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
                             <img src={GithubLogo} width="24" alt="Github" />
                         </a>
-                        <p className="pt-2"><strong>Objective:</strong> It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                        <p className="pt-2"><strong>Objective:</strong> Full-stack developer with a passion in building beautiful applications with great user experience.</p>
                     </>
                 } />
             <div className="container py-5">

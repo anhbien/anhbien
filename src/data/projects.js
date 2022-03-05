@@ -7,7 +7,7 @@ export const Projects = [
     {
         id: 1,
         title: "Arcades in the US vs Japan",
-        description: "A cultural deep down to explore the posibilities why arcade is dead in the US while it's thriving in Japan"
+        description: "A cultural deep dive to explore the posibilities why arcade is dead in the US while it's thriving in Japan"
     },
     {
         id: 2,
