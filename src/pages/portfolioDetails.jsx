@@ -19,7 +19,7 @@ function PortfolioDetails() {
                 } />
             <article className="container py-5">
                 <div className="row">
-                    <div className="col-12 col-md-4 color-light-hover order-md-1 mb-3 rounded">
+                    <div className="col-12 col-md-4 color-light-hover order-md-1 p-4 mb-4 rounded">
                         <div className="sticky-top ms-2">
                             <h2>Contents</h2>
                             <ul className="my-2">
@@ -50,7 +50,7 @@ function PortfolioDetails() {
                             </section>
                             <section className="row py-3">
                                 <div className="col-12">
-                                    <h2 className="heading-text" id="anchor-background">Background</h2>
+                                    <h2 className="text-heading" id="anchor-background">Background</h2>
                                 </div>
                                 <div className="col-12 col-lg-7">
                                     <h3 id="anchor-inspiration">Inspiration</h3>
@@ -70,7 +70,7 @@ function PortfolioDetails() {
                             </section>
                             <section className="row py-3">
                                 <div className="col-12">
-                                    <h2 className="heading-text" id="anchor-typography">Typography</h2>
+                                    <h2 className="text-heading" id="anchor-typography">Typography</h2>
                                 </div>
                                 <div className="col-12 col-lg-7 order-lg-1">
                                     <h3 id="anchor-toshiOmagari">Toshi Omagari</h3>
@@ -89,7 +89,7 @@ function PortfolioDetails() {
                             </section>
                             <section className="row py-3">
                                 <div className="col-12">
-                                    <h2 className="heading-text" id="anchor-conclusion">Conclusion</h2>
+                                    <h2 className="text-heading" id="anchor-conclusion">Conclusion</h2>
                                 </div>
                                 <p>The quiz show game was designed in the US and the Atari font was used largely by Japanese developers who were not familiar with the alphabetical letters, so they put their own twist on it especially when it comes to lowercase letters. The design of the lowercase first appeared in 1983, in a game called Pho-zon. However, the lowercase letters in this game don’t follow the spacing rule. Some of the letters like g, j, p, q, and y violated the vertical and horizontal spacing rules causing them to touch other characters.
                                     Since the 1980s, the performance of arcade games has gradually evolved. The number of fonts with multiple colors and the number of expression methods has increased. In addition, those features like shadows and frames have also been introduced
@@ -99,7 +99,7 @@ function PortfolioDetails() {
                             </section>
                             <section className="row py-3">
                                 <div className="col-12">
-                                    <h2 className="heading-text" id="anchor-reference">Reference</h2>
+                                    <h2 className="text-heading" id="anchor-reference">Reference</h2>
                                 </div>
                                 <div className="col-12">
                                     <ul>

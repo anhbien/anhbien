@@ -89,13 +89,6 @@ strong {
   overflow: hidden;
 }
 
-.heading-text {
-  color: #F8F9FA;
-  background-color: #343A40;
-  padding: 4px 20px;
-  display: inline-block;
-}
-
 /* Background Colors */
 .color-universal-white {
   background-color: #FFF;
@@ -159,6 +152,7 @@ strong {
   color: #F8F9FA;
   background-color: #343A40;
   padding: 4px 20px;
+  border-radius: 0.25rem !important;
 }
 
 .text-light {
