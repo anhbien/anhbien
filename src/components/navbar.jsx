@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import Logo from '../images/Color.png';
+import Logo from '../images/Logo.svg';
 import { NavLink } from "react-router-dom";
 
 function Navbar() {

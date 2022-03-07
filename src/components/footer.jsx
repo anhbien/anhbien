@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/ColorReverse.png";
+import Logo from "../images/LogoReverse.svg";
 import GithubLogo from "../images/github.png";
 import LinkedinLogo from "../images/linkedin.png";
 import { Link } from "react-router-dom";
