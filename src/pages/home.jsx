@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Button from '../components/button';
 import Card from '../components/card';
-import Portrait from '../images/me.png';
+import Portrait from '../images/me.svg';
 import { Projects } from '../data/projects';
 
 function Home() {
