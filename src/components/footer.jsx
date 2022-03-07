@@ -42,9 +42,7 @@ function Footer() {
                 </div>
                 <div className="row text-center pt-4">
                     <div className="col-12">
-                        <span><strong>&copy; </strong><script>
-                            document.write(new Date().getUTCFullYear());
-                        </script> Anh Bien. All rights reserved.
+                        <span><strong>&copy; </strong>{new Date().getFullYear()} Anh Bien. All rights reserved.
                         </span>
                     </div>
                 </div>
