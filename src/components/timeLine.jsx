@@ -1,27 +1,19 @@
 import React from "react";
-import Pin from "../images/pin.png"
 
-function Timeline() {
+function Timeline(props) {
+    const { companyName, title, location, period, jobs } = props;
     return (
         <section>
             <div className="content">
-                <h3>Company Name</h3>
+                <h3>{companyName}</h3>
                 <p>
-                    <img src={Pin} width="16" alt="location pin" />
-                    <strong className="ps-2">Location</strong>
+                    <i class="fa-regular fa-location-dot icon-small"></i>
+                    <span className="ps-2">{location}</span>
                 </p>
-                <p><em>November 2020 - present</em></p>
+                <strong>{title}</strong>
+                <p><em>{period}</em></p>
                 <ul>
-                    <li>
-                        Culpa qui officia deserunt mollit anim id esto polujimi laborum. Sed ut
-                        perspiciatis unde omnis iste eropluk onatuspop error sit voluptartem
-                        accusantium
-                    </li>
-                    <li>
-                        Culpa qui officia deserunt mollit anim id esto polujimi laborum. Sed ut
-                        perspiciatis unde omnis iste eropluk onatuspop error sit voluptartem
-                        accusantium
-                    </li>
+                    {jobs.map(job => { return (<li>{job}</li>); })}
                 </ul>
             </div>
         </section>

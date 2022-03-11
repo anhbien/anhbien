@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import Jumbotron from '../components/jumbotron';
 import SkillTile from '../components/skillTile';
 import TimeLine from '../components/timeLine';
-import GithubLogo from "../images/github.png";
-import LinkedinLogo from "../images/linkedin.png";
+import { Experience } from "../data/experience";
+import { Skills } from "../data/skills";
 
 function Resume() {
-    const cards = ['one', 'two', 'three', 'one'];
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -17,10 +16,10 @@ function Resume() {
                 bottomElement={
                     <>
                         <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
-                            <img src={LinkedinLogo} width="24" alt="LinkedIn" />
+                            <i class="fa-brands fa-linkedin icon-small text-light"></i>
                         </a>
                         <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                            <img src={GithubLogo} width="24" alt="Github" />
+                            <i class="fa-brands fa-github icon-small text-light"></i>
                         </a>
                         <p className="pt-2"><strong>Objective:</strong> Full-stack developer with a passion in building beautiful applications with great user experience.</p>
                     </>
@@ -31,33 +30,42 @@ function Resume() {
                         <div className="container">
                             <h2 className="text-heading">Skills</h2>
                             <div className="row">
-                                {cards.map((_, i) => {
+                                {Skills.map((skill, i) => {
+                                    const { icon, skillName, skills } = skill;
                                     return (
-                                        <SkillTile key={i} />
+                                        <SkillTile key={i} icon={icon} skillName={skillName} skills={skills} />
                                     )
                                 })}
                             </div>
                         </div>
                         <div className="container pt-3 d-none d-lg-block">
                             <h2 className="text-heading">Education</h2>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
+                            <h4 className="pt-3">M.S. in Human Computer Interaction</h4>
+                            <p> Depaul University - Chicago, IL</p>
+                            <em>September 2017 - March 2022</em>
+                            <h4 className="pt-3">M.S. in Business Information Technology</h4>
+                            <p>DePaul University - Chicago, IL</p>
+                            <em>September 2012 - August 2014</em>
+                            <h4 className="pt-3">B.S. in Information Technology</h4>
+                            <p>University of Sciences - Ho Chi Minh City, Vietnam</p>
+                            <em>September 2006 - September 2011</em>
                         </div>
                     </div>
                     <div className="col-12 col-lg-8">
                         <div className="container pt-3 pt-lg-0">
                             <h2 className="text-heading">Experience</h2>
                             <article className="timeline">
-                                {cards.map((_, i) => {
+                                {Experience.map(exp => {
+                                    const { id, companyName, title, location, period, jobs } = exp;
                                     return (
-                                        <TimeLine key={i} />
+                                        <TimeLine
+                                            key={id}
+                                            companyName={companyName}
+                                            title={title}
+                                            location={location}
+                                            period={period}
+                                            jobs={jobs}
+                                        />
                                     )
                                 })}
                             </article>
@@ -66,15 +74,15 @@ function Resume() {
                     <div className="col-12 d-block d-lg-none">
                         <div className="container pt-5">
                             <h2 className="text-heading">Education</h2>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
-                            <h3>DePaul University</h3>
-                            <p>Chicago, IL</p>
-                            <em>November 2020 - present</em>
+                            <h4 className="pt-3">M.S. in Human Computer Interaction</h4>
+                            <p> Depaul University - Chicago, IL</p>
+                            <em>September 2017 - March 2022</em>
+                            <h4 className="pt-3">M.S. in Business Information Technology</h4>
+                            <p>DePaul University - Chicago, IL</p>
+                            <em>September 2012 - August 2014</em>
+                            <h4 className="pt-3">B.S. in Information Technology</h4>
+                            <p>University of Sciences - Ho Chi Minh City, Vietnam</p>
+                            <em>September 2006 - September 2011</em>
                         </div>
                     </div>
                 </div>

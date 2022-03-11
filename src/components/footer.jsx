@@ -1,7 +1,5 @@
 import React from "react";
 import Logo from "../images/LogoReverse.svg";
-import GithubLogo from "../images/github.png";
-import LinkedinLogo from "../images/linkedin.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -33,10 +31,10 @@ function Footer() {
                     </div>
                     <div className="col-12 col-lg-4 text-lg-end">
                         <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
-                            <img src={LinkedinLogo} width="24" alt="LinkedIn" />
+                            <i class="fa-brands fa-linkedin icon-small"></i>
                         </a>
                         <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                            <img src={GithubLogo} width="24" alt="Github" />
+                            <i class="fa-brands fa-github icon-small"></i>
                         </a>
                     </div>
                 </div>
