@@ -6,6 +6,7 @@ export const Experience=[
     location:"Chicago, Illinois",
     period:"January 2020 - present",
     jobs:[
+      "Developing .NET C# applications utilizing ReactJS for front-end components to increase efficiency for P2P customers."
     ]
   },
   {
