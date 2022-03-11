@@ -12,7 +12,7 @@ function Portfolio() {
             <Jumbotron
                 topElement={<h1>PORTFOLIO</h1>}
                 bottomElement={
-                    <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+                    <p>Here are some of my feature projects from research to design.</p>
                 } />
             <div className='container py-5'>
                 <h2>Current Projects</h2>
