@@ -12,7 +12,7 @@ const Button = (props) => {
             buttonStyle = "btn-primary";
             break;
     }
-    return (<Link to={to} className={buttonStyle}>{text}</Link>);
+    return (<Link to={to} className={`rounded-pill ${buttonStyle}`}>{text}</Link>);
 };
 
 export default Button;

@@ -175,9 +175,6 @@ strong {
 /* Buttons */
 .btn-primary {
   background-color: #ef6115;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
   border: 1px solid #EF6215;
   display: inline-block;
   color: #ffffff;
@@ -194,9 +191,6 @@ strong {
 
 .btn-default {
   background-color: transparent;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
   border: 1px solid #EF6215;
   display: inline-block;
   color: #EF6215;
