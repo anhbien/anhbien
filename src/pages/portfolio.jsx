@@ -10,7 +10,7 @@ function Portfolio() {
     return (
         <>
             <Jumbotron
-                topElement={<h1>PORTFOLIO</h1>}
+                topElement={<h1>Portfolio</h1>}
                 bottomElement={
                     <p>Here are some of my feature projects from research to design.</p>
                 } />
