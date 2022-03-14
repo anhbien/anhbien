@@ -16,10 +16,10 @@ function Resume() {
                 bottomElement={
                     <>
                         <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
-                            <i className="fa-brands fa-linkedin icon-small text-light"></i>
+                            <i className="fa-brands fa-linkedin icon-small link-light"></i>
                         </a>
                         <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                            <i className="fa-brands fa-github icon-small text-light"></i>
+                            <i className="fa-brands fa-github icon-small link-light"></i>
                         </a>
                         <p className="pt-2"><strong>Objective:</strong> Full-stack developer with a passion in building beautiful applications with great user experience.</p>
                     </>

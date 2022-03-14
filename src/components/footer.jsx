@@ -15,25 +15,25 @@ function Footer() {
                                         <img src={Logo} width="64" alt="Logo" />
                                     </Link></li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/">Home</Link>
+                                    <Link className="link-light" to="/">Home</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/portfolio">Portfolio</Link>
+                                    <Link className="link-light" to="/portfolio">Portfolio</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <Link to="/resume">Resume</Link>
+                                    <Link className="link-light" to="/resume">Resume</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
-                                    <a href="mailto:contact@anhnbien.com">Contact</a>
+                                    <a className="link-light" href="mailto:contact@anhnbien.com">Contact</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="col-12 col-lg-4 text-lg-end">
-                        <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
+                        <a className="d-inline pe-2 link-light" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                             <i className="fa-brands fa-linkedin icon-small"></i>
                         </a>
-                        <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
+                        <a className="d-inline link-light" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
                             <i className="fa-brands fa-github icon-small"></i>
                         </a>
                     </div>
