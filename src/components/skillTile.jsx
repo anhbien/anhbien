@@ -14,7 +14,7 @@ function SkillTile(props) {
                         <p>
                             {skills.map(skill => {
                                 return (
-                                    <span className="badge rounded-pill bg-secondary me-1">{skill}</span>
+                                    <span className="badge rounded-pill color-dark-disable me-1">{skill}</span>
                                 )
                             })}
                         </p>
