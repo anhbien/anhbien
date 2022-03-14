@@ -25,7 +25,6 @@ a {
 
 a:hover {
   color: #BD4D11;
-  text-decoration: none;
 }
 
 h1 {
@@ -191,6 +190,9 @@ strong {
 .btn-primary:focus {
   background-color: #bd4d11 !important;
   border-color: #EF6215 !important;
+  --bgStart: #ef6115;
+  --bgEnd: #bd4d11;
+  animation: backgroundChange 0.5s;
 }
 
 .btn-default {
@@ -204,18 +206,31 @@ strong {
 
 .btn-default:hover {
   background-color: #ef611520;
+  --bgStart: transparent;
+  --bgEnd: #ef611520;
+  animation: backgroundChange 0.5s;
 }
+
+
 
 /* Cards */
 .card {
   overflow: hidden;
 }
 
-.card img {
-  transition: transform .2s;
+.card a {
+  color: #EF6215;
 }
 
-.card img:hover {
+.card a:hover {
+  color: #EF6215;
+}
+
+.card img {
+  transition: transform .65s;
+}
+
+.card:hover img {
   transform: scale(1.1);
 }
 
@@ -224,6 +239,14 @@ strong {
   background-color: #343A4050;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
+}
+
+.card:hover .card-img-overlay {
+  top: auto;
+  background-color: #23272B50;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  animation: backdropBlur 0.5s;
 }
 
 /* Header */
@@ -334,5 +357,29 @@ footer a:hover {
 
   50% {
     border-color: #fdd12d
+  }
+}
+
+@keyframes backgroundChange {
+  from {
+    background-color: var(--bgStart);
+  }
+
+  to {
+    background-color: var(--bgEnd);
+  }
+}
+
+@keyframes backdropBlur {
+  from {
+    background-color: #343A4050;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  to {
+    background-color: #23272B50;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
   }
 }
