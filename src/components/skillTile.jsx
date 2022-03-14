@@ -7,14 +7,14 @@ function SkillTile(props) {
             <div className="container">
                 <div className="row text-start text-md-center text-lg-start">
                     <div className="col-3 col-md-12 col-lg-3">
-                        <i class={`icon-large ${icon}`}></i>
+                        <i className={`icon-large ${icon}`}></i>
                     </div>
                     <div className="col-9 col-md-12 col-lg-9">
                         <strong>{skillName}</strong>
                         <p>
                             {skills.map(skill => {
                                 return (
-                                    <span class="badge rounded-pill bg-secondary me-1">{skill}</span>
+                                    <span className="badge rounded-pill bg-secondary me-1">{skill}</span>
                                 )
                             })}
                         </p>

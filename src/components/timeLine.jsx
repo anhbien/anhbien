@@ -7,7 +7,7 @@ function Timeline(props) {
             <div className="content">
                 <h3>{companyName}</h3>
                 <p>
-                    <i class="fa-regular fa-location-dot icon-xsmall"></i>
+                    <i className="fa-regular fa-location-dot icon-xsmall"></i>
                     <span className="ps-2">{location}</span>
                 </p>
                 <strong>{title}</strong>

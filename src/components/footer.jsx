@@ -31,10 +31,10 @@ function Footer() {
                     </div>
                     <div className="col-12 col-lg-4 text-lg-end">
                         <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
-                            <i class="fa-brands fa-linkedin icon-small"></i>
+                            <i className="fa-brands fa-linkedin icon-small"></i>
                         </a>
                         <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                            <i class="fa-brands fa-github icon-small"></i>
+                            <i className="fa-brands fa-github icon-small"></i>
                         </a>
                     </div>
                 </div>

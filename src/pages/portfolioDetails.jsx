@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Jumbotron from '../components/jumbotron';
 import { Projects } from '../data/projects';
 import { useParams } from 'react-router-dom';
@@ -6,9 +6,42 @@ import { HashLink as Link } from 'react-router-hash-link';
 
 function PortfolioDetails() {
     const { id } = useParams()
+    const contentRef = useRef();
+    const [refVisible, setRefVisible] = useState(false);
+    const buildList = (headings) => {
+        const rtnList = [];
+        if (headings.length > 0) {
+            headings.forEach((heading, index) => {
+                rtnList.push(<li key={index}><Link to={`#${heading.id}`}>{heading.innerText}</Link></li>);
+            })
+        }
+        return rtnList;
+    };
+    const contentList = () => {
+        const returnList = [];
+        if (contentRef.current) {
+            const contentSections = contentRef.current.querySelectorAll("section");
+            if (contentSections.length > 0) {
+                contentSections.forEach((section, index) => {
+                    const heading2 = section.querySelectorAll("h2");
+                    const heading3 = section.querySelectorAll("h3");
+                    if (heading2.length > 0) {
+                        heading2.forEach(h2 => {
+                            returnList.push(
+                                <li key={index}><Link to={`#${h2.id}`}>{h2.innerText}</Link>
+                                    <ul>{buildList(heading3)}</ul>
+                                </li>
+                            );
+                        })
+                    }
+                })
+            }
+        }
+        return returnList;
+    };
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+        window.scrollTo(0, 0);
+    }, [refVisible])
     const project = Projects.find(prj => prj.id === Number(id));
     return project && (
         <>
@@ -23,24 +56,11 @@ function PortfolioDetails() {
                         <div className="sticky-top ms-2">
                             <h2>Contents</h2>
                             <ul className="my-2">
-                                <li><Link to="#anchor-background">Background</Link>
-                                    <ul>
-                                        <li><Link to="#anchor-inspiration">Inspiration</Link></li>
-                                        <li><Link to="#anchor-technicalLimitations">Technical limitations</Link></li>
-                                    </ul>
-                                </li>
-                                <li><Link to="#anchor-typography">Typography</Link>
-                                    <ul>
-                                        <li><Link to="#anchor-toshiOmagari">Toshi Omagari</Link></li>
-                                        <li><Link to="#anchor-arcadeGameTypography">Arcade Game Typography</Link></li>
-                                    </ul>
-                                </li>
-                                <li><Link to="#anchor-conclusion">Conclusion</Link></li>
-                                <li><Link to="#anchor-reference">Reference</Link></li>
+                                {contentList()}
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-md-8 order-md-0">
+                    <div className="col-12 col-md-8 order-md-0" ref={el => { contentRef.current = el; setRefVisible(!!el); }}>
                         <div className="container-fluid">
                             <section className="text-center">
                                 <iframe className="rounded" width="100%" height="400px" src="https://www.youtube.com/embed/hK7LNB1Eg6U"
