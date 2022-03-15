@@ -27,9 +27,6 @@ function Navbar() {
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/resume" onClick={handleClick}>RESUME</NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href='mailto:contact@anhnbien.com' >CONTACT</a>
-                        </li>
                     </ul>
                 </div>
             </div>

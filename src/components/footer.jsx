@@ -23,9 +23,6 @@ function Footer() {
                                 <li className="d-block d-lg-inline p-2">
                                     <Link className="link-light" to="/resume">Resume</Link>
                                 </li>
-                                <li className="d-block d-lg-inline p-2">
-                                    <a className="link-light" href="mailto:contact@anhnbien.com">Contact</a>
-                                </li>
                             </ul>
                         </nav>
                     </div>
