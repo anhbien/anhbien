@@ -360,3 +360,11 @@ strong {
     border-color: #fdd12d
   }
 }
+
+/* Icons */
+img.icon-large{
+  max-height: 128px;
+}
+img.icon-small{
+  max-height: 24px;
+}

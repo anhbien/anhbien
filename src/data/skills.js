@@ -1,11 +1,11 @@
 export const Skills = [
     {
-        icon: "fa-regular fa-laptop-code",
+        icon: "code",
         skillName: "Development",
         skills: ["ReactJS", "HTML","CSS", "JavaScript", "TypeScript", "SQL", "C#"]
     },
     {
-        icon: "fa-regular fa-pen-ruler",
+        icon: "design",
         skillName: "Design",
         skills: ["User Experience", "User Research","Web Development", "Analytical", "Iterative development life cycles"]
     }

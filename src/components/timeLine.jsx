@@ -1,4 +1,5 @@
 import React from "react";
+import Location from "../images/location.svg";
 
 function Timeline(props) {
     const { companyName, title, location, period, jobs } = props;
@@ -7,7 +8,7 @@ function Timeline(props) {
             <div className="content">
                 <h3>{companyName}</h3>
                 <p>
-                    <i className="fa-regular fa-location-dot icon-xsmall"></i>
+                    <img src={Location} alt="location icon" className="img-responsive icon-small"/>
                     <span className="ps-2">{location}</span>
                 </p>
                 <strong>{title}</strong>
