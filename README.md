@@ -64,7 +64,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)### `npm run deploy` to deploy to gh-pages.
+
+Make sure to remove "name": "anhbien" in package.json to make sure it works with custom domain
 
 ### `npm run build` fails to minify
 
