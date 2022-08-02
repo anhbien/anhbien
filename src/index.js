@@ -22,8 +22,8 @@ ReactDOM.render(
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/portfolio-details/:id" element={<PortfolioDetails />} />
         <Route path="/resume" element={<Resume />} />
-        <Route index path="/" element={<Home />} />
-        <Route path="*" element={<Home/>} />
+        <Route index path="/" element={<Resume />} />
+        <Route path="*" element={<Resume />} />
       </Routes>
       <Footer />
     </Router>

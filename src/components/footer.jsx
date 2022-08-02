@@ -14,7 +14,7 @@ function Footer() {
                                     <Link to="/">
                                         <img src={Logo} width="64" alt="Logo" />
                                     </Link></li>
-                                <li className="d-block d-lg-inline p-2">
+                                {/* <li className="d-block d-lg-inline p-2">
                                     <Link className="link-light" to="/">Home</Link>
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
@@ -22,7 +22,7 @@ function Footer() {
                                 </li>
                                 <li className="d-block d-lg-inline p-2">
                                     <Link className="link-light" to="/resume">Resume</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                     </div>

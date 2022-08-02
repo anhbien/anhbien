@@ -313,6 +313,10 @@ strong {
   object-fit: cover;
 }
 
+.max-height {
+  max-height: 400px;
+}
+
 /* Animation */
 .typewriter p {
   color: #fff;

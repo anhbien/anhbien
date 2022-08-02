@@ -4,6 +4,7 @@ import SkillTile from '../components/skillTile';
 import TimeLine from '../components/timeLine';
 import { Experience } from "../data/experience";
 import { Skills } from "../data/skills";
+import Portrait from '../images/me.svg';
 
 function Resume() {
     useEffect(() => {
@@ -23,7 +24,9 @@ function Resume() {
                         </a>
                         <p className="pt-2"><strong>Objective:</strong> Full-stack developer with a passion in building beautiful applications with great user experience.</p>
                     </>
-                } />
+                }
+                sideImage={Portrait}
+                 />
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 col-lg-4">

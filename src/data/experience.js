@@ -2,11 +2,12 @@ export const Experience=[
   {
     id: 0,
     companyName: "Docusign",
-    title: "Fullstack Software Engineer",
+    title: "Software Engineer",
     location:"Chicago, Illinois",
     period:"January 2020 - present",
     jobs:[
-      "Developing .NET C# applications utilizing ReactJS for front-end components to increase efficiency for P2P customers."
+      "Developing ReactJS applications for DocuSign – Contract Life Cycle product utilizing TypeScript, Javascript, HTML, CSS for User Interface and .NET C# for back-end providing smooth user experience for B2B customers.",
+      "Developing Selenium automation tests in C# for quality assurance and catching regressions during software development life cycles."
     ]
   },
   {
