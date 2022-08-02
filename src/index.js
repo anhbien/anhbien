@@ -16,7 +16,7 @@ import PortfolioDetails from './pages/portfolioDetails';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename='/anhbien'>
+    <Router>
       <Navbar />        
       <Routes>
         <Route path="/portfolio" element={<Portfolio />} />
