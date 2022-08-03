@@ -367,4 +367,5 @@ img.icon-large{
 }
 img.icon-small{
   max-height: 24px;
+  width: 24px;
 }
