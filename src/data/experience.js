@@ -6,8 +6,9 @@ export const Experience=[
     location:"Chicago, Illinois",
     period:"January 2020 - present",
     jobs:[
-      "Developing ReactJS applications for DocuSign – Contract Life Cycle product utilizing TypeScript, Javascript, HTML, CSS for User Interface and .NET C# for back-end providing smooth user experience for B2B customers.",
-      "Developing Selenium automation tests in C# for quality assurance and catching regressions during software development life cycles."
+      "Developed accessible ReactJS applications for DocuSign's Contract Lifecycle Management (CLM) products, utilizing TypeScript for a seamless UI and .NET C# for back-end, improving user experience for diverse B2B customers.",
+      "Spearheaded the integration of CLM and DocuSign AI, driving UI development and cross-functional collaboration for enhanced agreement management features, while implementing full-stack solutions using TypeScript and GraphQL to ensure UX excellence and system robustness.",
+      "Created robust Selenium automation test suites in C# for web applications, improving product quality, reducing manual testing efforts by 80%, and accelerating release cycles."
     ]
   },
   {
