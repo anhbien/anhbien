@@ -12,7 +12,28 @@ function Resume() {
     }, [])
     return (
         <>
-            <Jumbotron
+            <div className="vh-75 home-hero-bg text-light d-flex">
+                <div className="container align-self-center justify-content-center">
+                    <div className="row">
+                        <div className="col-12 col-md-6 align-self-center text-center text-md-start">
+                            <div className="display-5 text-highlight-bold typewriter"><p>Anh Bien</p></div>
+                            <p className="display-5 text-thin">is a full-stack software developer with a passion in UI and UX</p>
+                            <div>
+                                <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
+                                    <i className="fa-brands fa-linkedin icon-small link-light"></i>
+                                </a>
+                                <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
+                                    <i className="fa-brands fa-github icon-small link-light"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-md-6 text-center d-none d-md-block">
+                            <img src={Portrait} alt="Portrait" className="w-75 img-responsive" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* <Jumbotron
                 topElement={<h1>Resume</h1>}
                 bottomElement={
                     <>
@@ -26,7 +47,7 @@ function Resume() {
                     </>
                 }
                 sideImage={Portrait}
-                 />
+            /> */}
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 col-lg-4">
