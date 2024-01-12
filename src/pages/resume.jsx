@@ -12,7 +12,7 @@ function Resume() {
     }, [])
     return (
         <>
-            <div className="vh-75 home-hero-bg text-light d-flex">
+            <div className="vh-75 home-hero-bg text-light d-flex py-5">
                 <div className="container align-self-center justify-content-center">
                     <div className="row">
                         <div className="col-12 col-md-6 align-self-center text-center text-md-start">
@@ -27,7 +27,7 @@ function Resume() {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-md-6 text-center d-none d-md-block">
+                        <div className="col-md-6 text-center order-first order-md-1 pb-3">
                             <img src={Portrait} alt="Portrait" className="w-75 img-responsive" />
                         </div>
                     </div>
