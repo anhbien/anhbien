@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.464fdbef.css",
-    "main.js": "/static/js/main.46b23e70.js",
+    "main.js": "/static/js/main.e852abf0.js",
     "static/media/Thumbnail.jpg": "/static/media/Thumbnail.13dcfb3d2abd324ef9b1.jpg",
     "static/media/Logo.svg": "/static/media/Logo.87c5d532bfbac64293905437b7815983.svg",
     "static/media/me.svg": "/static/media/me.557b570fe78be2479526565a31e0cae7.svg",
+    "static/media/AnhBien_Resume.pdf": "/static/media/AnhBien_Resume.5fcdd2b51669718dfc2f.pdf",
     "static/media/design.svg": "/static/media/design.b4e7bd9be499ef7a93eb9d59372ecb3f.svg",
     "static/media/code.svg": "/static/media/code.55353179bdf5c3dbb7772bb5ee1993aa.svg",
     "index.html": "/index.html",
     "static/media/LogoReverse.svg": "/static/media/LogoReverse.937ee58b2b6b7e892b5eb0171338870f.svg",
     "static/media/location.svg": "/static/media/location.31cc62d6077c261089c7411fc65ac56d.svg",
     "main.464fdbef.css.map": "/static/css/main.464fdbef.css.map",
-    "main.46b23e70.js.map": "/static/js/main.46b23e70.js.map"
+    "main.e852abf0.js.map": "/static/js/main.e852abf0.js.map"
   },
   "entrypoints": [
     "static/css/main.464fdbef.css",
-    "static/js/main.46b23e70.js"
+    "static/js/main.e852abf0.js"
   ]
 }
