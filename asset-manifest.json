@@ -1,29 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d2ed816.chunk.css",
-    "main.js": "/static/js/main.e6696267.chunk.js",
-    "main.js.map": "/static/js/main.e6696267.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e6243b3c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e6243b3c.js.map",
-    "static/js/2.6b32572f.chunk.js": "/static/js/2.6b32572f.chunk.js",
-    "static/js/2.6b32572f.chunk.js.map": "/static/js/2.6b32572f.chunk.js.map",
+    "main.css": "/static/css/main.464fdbef.css",
+    "main.js": "/static/js/main.46b23e70.js",
+    "static/media/Thumbnail.jpg": "/static/media/Thumbnail.13dcfb3d2abd324ef9b1.jpg",
+    "static/media/Logo.svg": "/static/media/Logo.87c5d532bfbac64293905437b7815983.svg",
+    "static/media/me.svg": "/static/media/me.557b570fe78be2479526565a31e0cae7.svg",
+    "static/media/design.svg": "/static/media/design.b4e7bd9be499ef7a93eb9d59372ecb3f.svg",
+    "static/media/code.svg": "/static/media/code.55353179bdf5c3dbb7772bb5ee1993aa.svg",
     "index.html": "/index.html",
-    "precache-manifest.3d8b94225879a4d0b57b237a9b6cc9a5.js": "/precache-manifest.3d8b94225879a4d0b57b237a9b6cc9a5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0d2ed816.chunk.css.map": "/static/css/main.0d2ed816.chunk.css.map",
-    "static/js/2.6b32572f.chunk.js.LICENSE.txt": "/static/js/2.6b32572f.chunk.js.LICENSE.txt",
-    "static/media/Logo.svg": "/static/media/Logo.fd94d92f.svg",
-    "static/media/LogoReverse.svg": "/static/media/LogoReverse.74afb8dc.svg",
-    "static/media/Thumbnail.jpg": "/static/media/Thumbnail.d1ab8a0d.jpg",
-    "static/media/code.svg": "/static/media/code.8050889c.svg",
-    "static/media/design.svg": "/static/media/design.2d40e358.svg",
-    "static/media/location.svg": "/static/media/location.3016ae2a.svg",
-    "static/media/me.svg": "/static/media/me.28d37ff8.svg"
+    "static/media/LogoReverse.svg": "/static/media/LogoReverse.937ee58b2b6b7e892b5eb0171338870f.svg",
+    "static/media/location.svg": "/static/media/location.31cc62d6077c261089c7411fc65ac56d.svg",
+    "main.464fdbef.css.map": "/static/css/main.464fdbef.css.map",
+    "main.46b23e70.js.map": "/static/js/main.46b23e70.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6243b3c.js",
-    "static/js/2.6b32572f.chunk.js",
-    "static/css/main.0d2ed816.chunk.css",
-    "static/js/main.e6696267.chunk.js"
+    "static/css/main.464fdbef.css",
+    "static/js/main.46b23e70.js"
   ]
 }
