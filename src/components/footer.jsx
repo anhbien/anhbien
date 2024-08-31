@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../images/LogoReverse.svg";
 import { Link } from "react-router-dom";
+import ResumeFile from '../data/AnhBien_Resume.pdf';
 
 function Footer() {
     return (
@@ -30,8 +31,11 @@ function Footer() {
                         <a className="d-inline pe-2 link-light" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                             <i className="fa-brands fa-linkedin icon-small"></i>
                         </a>
-                        <a className="d-inline link-light" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                            <i className="fa-brands fa-github icon-small"></i>
+                        <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
+                            <i className="fa-brands fa-github icon-small link-light"></i>
+                        </a>
+                        <a className="d-inline" target="_blank" rel="noreferrer" href={ResumeFile} title="Download Resume">
+                            <i className="fa-solid fa-download icon-small link-light"></i>
                         </a>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import TimeLine from '../components/timeLine';
 import { Experience } from "../data/experience";
 import { Skills } from "../data/skills";
 import Portrait from '../images/me.svg';
+import ResumeFile from '../data/AnhBien_Resume.pdf';
 
 function Resume() {
     useEffect(() => {
@@ -23,8 +24,11 @@ function Resume() {
                                 <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                                     <i className="fa-brands fa-linkedin icon-small link-light"></i>
                                 </a>
-                                <a className="d-inline" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
+                                <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
                                     <i className="fa-brands fa-github icon-small link-light"></i>
+                                </a>
+                                <a className="d-inline" target="_blank" rel="noreferrer" href={ResumeFile} title="Download Resume">
+                                    <i className="fa-solid fa-download icon-small link-light"></i>
                                 </a>
                             </div>
                         </div>
