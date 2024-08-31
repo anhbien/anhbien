@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Jumbotron from '../components/jumbotron';
+// import Jumbotron from '../components/jumbotron';
 import SkillTile from '../components/skillTile';
 import TimeLine from '../components/timeLine';
 import { Experience } from "../data/experience";
@@ -17,7 +17,8 @@ function Resume() {
                     <div className="row">
                         <div className="col-12 col-md-6 align-self-center text-center text-md-start">
                             <div className="display-5 text-highlight-bold typewriter"><p>Anh Bien</p></div>
-                            <p className="display-5 text-thin">is a full-stack software developer with a passion in UI and UX</p>
+                            <p className="text-thin">is Full-stack Software Engineer with a front-end focus and a strong foundation in human-computer interaction, committed to developing accessible, user-centric applications that elevate user experience and operational efficiency.
+                            </p>
                             <div>
                                 <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
                                     <i className="fa-brands fa-linkedin icon-small link-light"></i>
@@ -28,7 +29,7 @@ function Resume() {
                             </div>
                         </div>
                         <div className="col-md-6 text-center order-first order-md-1 pb-3">
-                            <img src={Portrait} alt="Portrait" className="w-75 img-responsive" />
+                            <img src={Portrait} alt="Portrait" className="w-50 img-responsive" />
                         </div>
                     </div>
                 </div>
