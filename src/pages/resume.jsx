@@ -15,20 +15,23 @@ function Resume() {
         <>
             <div className="vh-75 home-hero-bg text-light d-flex py-5">
                 <div className="container align-self-center justify-content-center">
+                    <div className="d-flex flex-row justify-content-end pb-2">
+                        <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
+                            <i className="fa-brands fa-linkedin icon-small link-light"></i>
+                        </a>
+                        <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
+                            <i className="fa-brands fa-github icon-small link-light"></i>
+                        </a>
+                    </div>
                     <div className="row">
                         <div className="col-12 col-md-6 align-self-center text-center text-md-start">
                             <div className="display-5 text-highlight-bold typewriter"><p>Anh Bien</p></div>
-                            <p className="text-thin">is Full-stack Software Engineer with a front-end focus and a strong foundation in human-computer interaction, committed to developing accessible, user-centric applications that elevate user experience and operational efficiency.
+                            <p className="text-thin pt-2">is <b>Full-stack Software Engineer</b> with a front-end focus and a strong foundation in human-computer interaction, committed to developing accessible, user-centric applications that elevate user experience and operational efficiency.
                             </p>
                             <div>
-                                <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/anhbien" title="LinkedIn">
-                                    <i className="fa-brands fa-linkedin icon-small link-light"></i>
-                                </a>
-                                <a className="d-inline pe-2" target="_blank" rel="noreferrer" href="https://github.com/anhbien" title="Github">
-                                    <i className="fa-brands fa-github icon-small link-light"></i>
-                                </a>
                                 <a className="d-inline" target="_blank" rel="noreferrer" href={ResumeFile} title="Download Resume">
-                                    <i className="fa-solid fa-download icon-small link-light"></i>
+                                    <i className="fa-solid fa-download icon-small link-light pe-2"></i>
+                                    <span>Download Resume</span>
                                 </a>
                             </div>
                         </div>

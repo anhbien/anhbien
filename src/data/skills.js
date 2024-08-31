@@ -2,7 +2,7 @@ export const Skills = [
     {
         icon: "code",
         skillName: "Development",
-        skills: ["JavaScript", "TypeScript", "HTML", "CSS","GraphQL", "ReactJS", "NodeJS", "SQL", "C#"]
+        skills: ["JavaScript", "TypeScript", "HTML", "CSS", "GraphQL", "ReactJS", "NodeJS", "SQL", "C#"]
     },
     {
         icon: "design",
